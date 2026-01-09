@@ -4,7 +4,9 @@
 
 # Generate Django project files in the current directory
 # Note: The dot (.) at the end is important
+```bash
 docker-compose run web django-admin startproject <project_name> .
+```
 
 # Fix file permissions (Required for Linux/Arch users)
 # Changes ownership of files from root to current user
